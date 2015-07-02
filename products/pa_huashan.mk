@@ -14,7 +14,7 @@
 
 # Check for target product
 
-ifeq (pa_nicki,$(TARGET_PRODUCT))
+ifeq (pa_huashan,$(TARGET_PRODUCT))
 
 # OVERLAY_TARGET adds overlay asset source
 OVERLAY_TARGET := pa_hdpi
@@ -26,7 +26,7 @@ $(call inherit-product, vendor/pa/configs/telephony.mk)
 include vendor/pa/main.mk
 
 # Inherit device configuration
-$(call inherit-product, device/sony/nicki/nicki.mk)
+$(call inherit-product, device/sony/huashan/huashan.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := huashan
