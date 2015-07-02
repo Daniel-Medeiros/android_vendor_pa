@@ -180,6 +180,9 @@ endif
 ifeq (pa_taoshan,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_taoshan.mk
 endif
+ifeq (pa_taoshan,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_huashan.mk
+endif
 ifeq (pa_targa,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_targa.mk
 endif
