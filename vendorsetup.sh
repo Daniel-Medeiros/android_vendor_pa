@@ -55,6 +55,7 @@ add_lunch_combo pa_sirius-userdebug
 add_lunch_combo pa_skyrocket-userdebug
 add_lunch_combo pa_spyder-userdebug
 add_lunch_combo pa_taoshan-userdebug
+add_lunch_combo pa_huashan-userdebug
 add_lunch_combo pa_targa-userdebug
 add_lunch_combo pa_togari-userdebug
 add_lunch_combo pa_umts_spyder-userdebug
