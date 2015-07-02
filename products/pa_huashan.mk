@@ -38,3 +38,5 @@ PRODUCT_CHARACTERISTICS := phone
 
 # Release name
 PRODUCT_RELEASE_NAME := Xperiasp
+
+endif
